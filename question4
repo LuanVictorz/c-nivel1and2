@@ -1,0 +1,23 @@
+#include <iostream>
+using namespace std;
+
+int main()
+{
+    int number = 0;
+	
+	cout << "Digite um numero: \n";
+	cin >> number;
+	
+	if(number > 0){
+		cout << "Numero Positivo" << "\n";
+	}else if (number< 0) {
+		cout << "Numero Negativo" << "\n";
+	}else {
+		cout << "Numero Nulo" << "\n";
+	}
+
+    system ("pause");
+
+    return 0;
+    
+}
