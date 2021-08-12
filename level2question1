@@ -1,0 +1,33 @@
+#include <iostream>
+using namespace std;
+
+int main()
+{
+    float TempoGastoNaViagem = 0;
+    float VelocidadeMedia = 0;
+    float DistanciaPercorrida = 0;
+    float LitrosUsados = 0;
+    
+  
+    
+
+    cout << "Digite o Tempo Gasto na Viagem em h: " "\n";
+    cin >> TempoGastoNaViagem;
+    cout << "Digite a Velocidade Media em kmh: " "\n";
+    cin >> VelocidadeMedia;
+    DistanciaPercorrida = TempoGastoNaViagem * VelocidadeMedia;
+
+    cout << "A Distancia Percorrida e :"<<DistanciaPercorrida;
+    
+    cout << "Digite a quantidade de litros usados: ""\n";
+    cin >> LitrosUsados;
+    cout << "Digite a Distancia Percorrida: ";
+    cin >> DistanciaPercorrida;
+    LitrosUsados = DistanciaPercorrida/12;
+    
+    cout << "Os Litros Utilizados Foram:"<<LitrosUsados;
+    
+    system("pause");
+    
+    return 0;
+}
