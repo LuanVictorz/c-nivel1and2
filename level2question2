@@ -1,0 +1,16 @@
+#include <iostream>
+using namespace std;
+
+int main()
+{
+	 float C, F;
+
+    cout << "Graus em Celsius: ";
+    cin >> C;
+
+    F = (9*C+160) / 5;
+
+    cout << "Representa em Fahrenheit: " << F;
+
+    return 0;
+}
