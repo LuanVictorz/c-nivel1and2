@@ -1,0 +1,22 @@
+#include <iostream>
+using namespace std;
+
+int main()
+{
+    int valor=0;
+    cout << "Digite o Valor: ";
+    cin >> valor;
+    if (valor>0){
+    	cout << "Valor Positivo" << "/n";
+    }else {
+    	cout << "Valor Negativo" << "/n";
+	}
+	
+
+
+
+
+
+    system("pause");
+    return 0;
+}
