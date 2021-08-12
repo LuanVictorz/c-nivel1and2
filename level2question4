@@ -1,0 +1,16 @@
+#include <iostream>
+using namespace std;
+
+int main()
+{
+	 float C, K;
+
+    cout << "Graus em Celsius: ";
+    cin >> C;
+
+    K= C + 273,15;
+
+    cout << "Representa em Kelvin: " << K;
+
+    return 0;
+}
